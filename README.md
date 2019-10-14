@@ -24,10 +24,10 @@ Then create a new RotaryDial
 const rd = new RotaryDial();
 ```
 
-Creating a callback is easy, just define what your function will do with the number it recieves from the RotaryDial.
+Creating a callback is easy, just define what your function will do with the number it receives from the RotaryDial.
 
 ```javascript
-const fucn = function(number){
+const func = function(number){
 	alert( number )
 }
 
@@ -35,11 +35,11 @@ const rd = new RotaryDial({callback: func});
 
 ```
 
-By default the RotaryDial has the console.log fucntion as the callback.
+By default the RotaryDial has the console.log function as the callback.
 
 # Documentation
 
-The RotaryDial accepts a configuration object on it's constructor. The most import parts are the size and the callback. The size will determine the size of your rotary dial menu, and the callback detemines which fucntion will be called when a number is selected. Besides that, there are some color cofigurations you can fiddle with.
+The RotaryDial accepts a configuration object on it's constructor. The most import parts are the size and the callback. The size will determine the size of your rotary dial menu, and the callback determines which function will be called when a number is selected. Besides that, there are some color configurations you can fiddle with.
 
 **size** - The size of the menu. *Default 400px*
 
