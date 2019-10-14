@@ -105,9 +105,9 @@ class RotaryDial {
 			
 			const center = this.innerCircle + (this.outerCircle-this.innerCircle)/2;
 			
-			const x = Math.floor(Math.cos(a)*center);
+			const x = Math.cos(a)*center;
 			
-			const y = Math.floor(Math.sin(a)*center);
+			const y = Math.sin(a)*center;
 			
 			const n = (10-i)%10;
 			
