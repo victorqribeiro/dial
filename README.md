@@ -14,7 +14,7 @@ Click / Touch the disc and drag it until the arrow. When the number reaches the 
 
 Include the RotaryDial.js file.
 
-```javascript
+```html
 <script src="RotaryDial.js"></script>
 ```
 
