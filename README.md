@@ -4,7 +4,7 @@ A [Rotary Dial](https://en.wikipedia.org/wiki/Rotary_dial) for input numbers.
 
 ![RotaryDial](favicon.png)
 
-Live version [here](https://victorribeiro.com/dial)
+Live version [here](https://victorribeiro.com/dial) | Alternative link [here](https://victorqribeiro.github.io/dial/index.html)
 
 # How to use it
 
