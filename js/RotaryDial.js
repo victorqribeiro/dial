@@ -227,10 +227,10 @@ class RotaryDial {
 		const _y = this.canvas.height/rect.height;
 	
 		if( e.touches ){
-		
-			x = e.targetTouches[0].clientX * _x;
 			
-			y = (e.targetTouches[0].clientY-rect.y) * _y;
+			x = (e.targetTouches[0].pageX - rect.left) * _x;
+			
+			y = (e.targetTouches[0].pageY - rect.top) *_y;
 			
 		}else{
 		
