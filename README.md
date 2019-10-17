@@ -39,7 +39,7 @@ By default the RotaryDial has the console.log function as the callback.
 
 # Documentation
 
-The RotaryDial accepts a configuration object on it's constructor. The most import parts are the size and the callback. The size will determine the size of your rotary dial menu, and the callback determines which function will be called when a number is selected. Besides that, there are some color configurations you can fiddle with.
+The RotaryDial accepts a configuration object on its constructor. The most import parts are the size and the callback. The size will determine the size of your rotary dial menu, and the callback determines which function will be called when a number is selected. Besides that, there are some color configurations you can fiddle with.
 
 **size** - The size of the menu. *Default 400px*
 
